@@ -182,7 +182,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\recipe\controllers\ingredientsCtrl.js" />
     <Content Include="app\recipe\controllers\recipeCtrl.js" />
+    <Content Include="app\recipe\directives\recipeDetails.js" />
+    <Content Include="app\recipe\directives\recipeInstructions.js" />
     <Content Include="app\recipe\recipeModule.js" />
     <Content Include="app\recipe\services\httpRecipeServiceWithQ.js" />
     <Content Include="app\recipe\services\httpRecipeService.js" />
@@ -190,6 +193,9 @@
     <Content Include="app\recipe\services\recipeValue.js" />
     <Content Include="app\recipe\services\resourceRecipeService.js" />
     <Content Include="app\recipe\services\simpleRecipeService.js" />
+    <Content Include="app\recipe\templates\details.html" />
+    <Content Include="app\recipe\templates\ingredients.html" />
+    <Content Include="app\recipe\templates\instructions.html" />
     <Content Include="App_Data\RecipesDB.mdf" />
     <Content Include="App_Data\RecipesDB_log.ldf">
       <DependentUpon>RecipesDB.mdf</DependentUpon>

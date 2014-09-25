@@ -1,0 +1,22 @@
+﻿<div>
+    <h2>{{recipe.name}}</h2>
+    <div class="box">
+        <div class="rightboxcontent">
+            <table>
+                <tr>
+                    <td class="style_bold">Price:</td>
+                    <td>{{recipe.price | currency}}</td>
+                </tr>
+                <tr>
+                    <td class="style_bold">Cooking Time:</td>
+                    <td>{{recipe.time}}&nbsp;minutes</td>
+                </tr>
+            </table>
+        </div>
+        <div class="leftboximage">
+            <img class="recipeImage" ng-src="Content/Images/food/{{recipe.image}}.jpg" />
+        </div>
+    </div>
+    <div ng-include="'app/recipe/templates/ingredients.html'" ng-controller="ingredientsCtrl"></div>
+    <div recipe-instructions data="recipe.recipeInstructions"></div>
+</div>
