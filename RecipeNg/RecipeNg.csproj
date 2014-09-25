@@ -184,6 +184,7 @@
   <ItemGroup>
     <Content Include="app\recipe\controllers\recipeCtrl.js" />
     <Content Include="app\recipe\recipeModule.js" />
+    <Content Include="app\recipe\services\httpRecipeService.js" />
     <Content Include="app\recipe\services\recipeValues.js" />
     <Content Include="app\recipe\services\recipeValue.js" />
     <Content Include="app\recipe\services\simpleRecipeService.js" />

@@ -1,6 +1,9 @@
 ﻿(function () {
     angular.module('recipe')
-    .controller('recipeCtrl', ['$scope', 'simpleRecipeService', function ($scope, recipeService) {
-        $scope.recipe = recipeService.getRecipe(1);
+    .controller('recipeCtrl', ['$scope', 'httpRecipeService', function ($scope, recipeService) {
+        $scope.recipe = {};
+        recipeService.getRecipe(1, function(data) {
+            $scope.recipe = data;
+        });
     }]);
 })(); 
