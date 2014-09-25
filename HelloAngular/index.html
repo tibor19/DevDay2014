@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Scripts/angular-csp.css" rel="stylesheet" />
+</head>
+<body ng-app="hello">
+    <div ng-init="text='Hello'"></div>
+    <input type="text" ng-model="greter" />
+    <div ng-bind-template="{{text}} {{greter}}"></div>
+    {{[1, 2, 3].length | currency}}
+
+    <div ng-controller="alertController">
+        <input type="text" ng-model="name">
+        <div ng-bind-template="{{text}} {{name}}"></div>
+        <div ng-click="alert('Hello ')">Click me</div>
+    </div>
+    
+    
+
+    <script src="Scripts/angular.js"></script>
+    <script src="app/Hello/module.js"></script>
+    <script src="app/Hello/Controllers/alertController.js"></script>
+</body>
+</html>
+ 
