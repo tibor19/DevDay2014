@@ -184,6 +184,7 @@
   <ItemGroup>
     <Content Include="app\recipe\controllers\recipeCtrl.js" />
     <Content Include="app\recipe\recipeModule.js" />
+    <Content Include="app\recipe\services\recipeValue.js" />
     <Content Include="App_Data\RecipesDB.mdf" />
     <Content Include="App_Data\RecipesDB_log.ldf">
       <DependentUpon>RecipesDB.mdf</DependentUpon>
