@@ -14,7 +14,7 @@
             controller: 'recipeCtrl',
             templateUrl: 'app/recipe/templates/details.html',
             restrict: 'EA',
-            scope : {}
+            scope: {}
         };
         return directive;
 
