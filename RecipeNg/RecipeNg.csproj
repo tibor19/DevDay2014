@@ -184,6 +184,7 @@
   <ItemGroup>
     <Content Include="app\recipe\controllers\recipeCtrl.js" />
     <Content Include="app\recipe\recipeModule.js" />
+    <Content Include="app\recipe\services\httpRecipeServiceWithQ.js" />
     <Content Include="app\recipe\services\httpRecipeService.js" />
     <Content Include="app\recipe\services\recipeValues.js" />
     <Content Include="app\recipe\services\recipeValue.js" />
@@ -275,6 +276,7 @@
     <Content Include="Scripts\angular-cookies.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
