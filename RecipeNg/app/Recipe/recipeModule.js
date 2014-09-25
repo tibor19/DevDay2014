@@ -1,3 +1,3 @@
 ﻿(function() {
-    angular.module('recipe', []);
+    angular.module('recipe', ['ngResource']);
 })();
